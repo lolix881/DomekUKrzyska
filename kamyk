@@ -1,0 +1,208 @@
+
+
+
+#calosc{
+    /*
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 392px;
+    height: 800px;
+    background-image: url(tło2.jpg);
+    background-repeat: no-repeat;
+}
+
+#pojemnik1{
+    width: 392px;
+    height: 200px;
+}
+
+
+#pojemnik1>div{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+#pojemnik1 div{
+    width: 100px;
+    height: 165px;
+    border: solid black 2px;
+    background-color: rgb(211, 211, 0);
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+#pojemnik1 div div{
+    width: 96px ;
+    height: 50px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    background-color: rgb(179, 12, 12);
+    cursor: pointer;
+}
+
+
+#pojemnik1 div div+div{
+    background-color: rgb(211, 211, 0);
+    border: 0ch;
+    border-radius: 0%;
+    cursor: default;
+}
+
+#pojemnik2{
+    background-color: yellowgreen;
+    border: double 2px black;
+    width: 250px;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+#licznik{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 120px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+#pojemnik3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#pojemnik3 button{
+    background-color: gold;
+    border: darkred solid 2px;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#pojemnik4{
+    background-image: url(tło1.jpg);
+    width: 390px;
+    border-radius: 20px;
+    height: 220px;
+    margin-top: 135px;
+    border: solid 2px black;
+}
+
+
+#pojemnik4 div{
+    background-color: gold;
+    border: darkred solid 5px;
+    color: darkred;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+#pojemnik5{
+    visibility: hidden;
+    width: 352px;
+    height: 200px;
+    background-color: gold;
+    border: solid darkred 20px;
+    color: darkred;
+    position: relative;
+    top: -590px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+#pojemnik5 button{
+    background-color: gold;
+    border: solid darkred 5px;
+    color: darkred;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <title>MENU rozwijane</title>
+        <meta charset="utf-8">
+        <link rel="Stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GmW6pNthfFpHTEqcnHiXedObgQ07DJej5WF3ZzAqPu0M5NEiPAf17y1XRn8iiQDY6-kzg6T1NDM2YoEwuz5jh2KGJBmBMenOY6AP3kgDmwoOA--Sl72gD1ZYl-L_zAhR2IIZt2V0mBcDuO92_qH-wBTMVd42WvnyuGTirecTJF2Zw0mcGPrPSu4EYTnQijuIPoUhBgkJ-JZkfDz-f0Q9FTR9ECJP9KIzrBvAIsCZmF8jNv8Q4x6PwgPVw-etp2fvvc19x8gMxayZoTQLYHvZs18ZwuvsJwqEJwKTDmQn0tIrTSvFfAiP2UmObGVHsMohFiSa91Pz8QtJ60gHV4PB5-m4F3XiTYjbKaGtEpGLyYRlVvVC406XDqYapfusEq6-N0YIJnFs1VrjV5aAddWvwtLLpTG79qSpak3_tpyR_BL-17Gt4xicg13EB1QakF_POcL6b8dNyR7y9syTJZ16Ut5QfA9TxAEYcOecdfSj5UVIhqihC1ZfdvcExQ2rdYlgcWjPb4f2vV_P1V-wBqQFGR61pWPGjbrFGN_U0ZJfGWGo84FMzhmQ1QhZGShRBmR1fgf6qEyAYjcdwCP5tYJivC2FtSczCnl6pmtVCfLGpVDlv99Q3qrh9IBMdz_iV44eFgbLpZwZbZKr5C64sKHPyv94DJ2uYhpMBDbZEN_ZYzP27pUOrXzkdjvnsmC4iVbvZpoKO53k5Ru_uE8JBgtOwy1i1RkUU88KLp3d8qLrZxJ_1PaB_2e48__GFtmB6HOx5OQOhxmmuhyUwg-NUgyumQtt3m1CgDCGj7O9NVx66pyFRHnKSljgTEvfTbI5g893UwfF52JLnOub_EIonhEVWtGKT9SPLy_fsruE0LBg5qc2hQ8WJl_lroP4GVIwWDOD3rPJaUcHKJU1xvP6IymWbzEwSiI4rsASKx-_l9wWtUuKp6D2J3CMu_a2XHFIcesFLolOQzXAZZ79QQPl1GAqYBERtklaVTYFl-jrl_X2EAjK8Q3oh14DYeXfETtT0WOXFMPSGpIdRH0bQHlIpHXscsS88KPWWo66WV8EeueDOB80Y6AoUTvmpwgVtY5_en4gU8lBmUbqQRzeGWjEBdttvwnocPpfnYWdfPaDuW8NF1hVTbu9_8K-fyHq266tZthckvAEAyPYhEzNuLaaejl8UhNJOO0-Llh4pknCWLI35TKEWpQadKYwiOyL0Kfag1fv00ggihtPcU7NnQcGGwhePPV3fPoc351_WjnrjZeKtmoEzsfflrwZU2a3C_uCDaX-fah2VN-V24z6pNVRmaSOqmE8yF5KdtIE6Lfz5vzUjFZokIBJFM78hKhOt6QREMX0z9FQB0ucmpuFOLXvDCZHM05n9wLSRG-o9-cdd_G5NOeqQKwVkrN0NlT2qTIWYMsCwlJddljBKGQo9DCFBCu-pr1hA3RpyrBY8U2Z1odhW1lLGf0K3k6lVB-4TgKyZgB8LGh4Ske6xKnvRHsDVGCD0Mo7aH3K79Vrg-GP2v7IQAudbfR731XYWXJvkYFkFEnT3sunzao1i7zv14Tjw6yAKi7VVuyDyMOW8IKkWFJUPYPkxKERW1MRSSr3NeBtNzkykE2JshlyYqhBQwdTwg5xtAqLAryDnRQfSWRDeGXCcakU1BwmJePrxZjhr1YTqomViX9mwCLar1fdzJ8yeeIWRuLpRdHZfyzbfQbklrDflM_0nnz-GFIfoWzDzwZqgTNWoCnXvtCAAlEBS34QjEzS9x09wXPZhTAQYO-J1AekhYmyubw0SvxsO8KPok5HYDsG0UEQqDHH4dQbfUYeKK4L1EOcLUTR_jTFL0KsEKnSn3oIotVb4mH0j8z6YV7tLlJ90Wk4VKq77MmwrtRoGXRKKi4DoxqNtucO_Vp-6TSktY6OZDr9FWU-yKwJUVFxxl-xQ3UyKBRm3IytinHjNdTuzw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly96c2h0cGwtbXkuc2hhcmVwb2ludC5jb20vcGVyc29uYWwvZGF3aWRfa196c2h0cGxfb25taWNyb3NvZnRfY29tL19sYXlvdXRzLzE1L2Rvd25sb2FkLmFzcHg_VW5pcXVlSWQ9NzI0N2Y5MDEtMjE3Yy00ODhjLWI0MGItNmZkNzgzYWMyMDE0JlRyYW5zbGF0ZT1mYWxzZSZ0ZW1wYXV0aD1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUp1YjI1bEluMC5leUpoZFdRaU9pSXdNREF3TURBd015MHdNREF3TFRCbVpqRXRZMlV3TUMwd01EQXdNREF3TURBd01EQXZlbk5vZEhCc0xXMTVMbk5vWVhKbGNHOXBiblF1WTI5dFFERXlZVE5rTlRFM0xUUmlOREl0TkRGbVppMDRNMlE1TFRRd1pERTNZVFV5TkRZMFppSXNJbWx6Y3lJNklqQXdNREF3TURBekxUQXdNREF0TUdabU1TMWpaVEF3TFRBd01EQXdNREF3TURBd01DSXNJbTVpWmlJNklqRTJOelEzTmpZNU5UVWlMQ0psZUhBaU9pSXhOamMwTnpZM01qVTFJaXdpWlc1a2NHOXBiblIxY213aU9pSjRiek5aWkc0MVp6RkVWVXhFZEZnMmFqSnZjbEoxTW1GNFl6VmxOVEJ4U0hONWVsbDJabGwyVmxaQlBTSXNJbVZ1WkhCdmFXNTBkWEpzVEdWdVozUm9Jam9pTVRZd0lpd2lhWE5zYjI5d1ltRmpheUk2SWxSeWRXVWlMQ0pqYVdRaU9pSk5SR2Q1VFZScmQxbFVRWFJOVkVKcFdWTXdNazFFUVhkTVZFRjRUa1JSZEU5WFJURlpNbGt6VGpKSmQwNVVZek1pTENKMlpYSWlPaUpvWVhOb1pXUndjbTl2Wm5SdmEyVnVJaXdpYzJsMFpXbGtJam9pVFdwSk5GbHFWbXBPYWtsMFdWZEZlazFUTURCUFIwNW9URlJvYWsxNlZYUmFSRnBvV2tkR2JFOVhXbXBPYlZVeklpd2lZWEJ3WDJScGMzQnNZWGx1WVcxbElqb2lUV2xqY205emIyWjBJRlJsWVcxeklGZGxZaUJEYkdsbGJuUWlMQ0p6YVdkdWFXNWZjM1JoZEdVaU9pSmJYQ0pyYlhOcFhDSmRJaXdpWVhCd2FXUWlPaUkxWlROalpUWmpNQzB5WWpGbUxUUXlPRFV0T0dRMFlpMDNOV1ZsTnpnM09EY3pORFlpTENKMGFXUWlPaUl4TW1FelpEVXhOeTAwWWpReUxUUXhabVl0T0ROa09TMDBNR1F4TjJFMU1qUTJOR1lpTENKMWNHNGlPaUprWVhkcFpDNXJRSHB6YUhSd2JDNXZibTFwWTNKdmMyOW1kQzVqYjIwaUxDSndkV2xrSWpvaU1UQXdNekl3TURBNU56TkZPREZDTVNJc0ltTmhZMmhsYTJWNUlqb2lNR2d1Wm54dFpXMWlaWEp6YUdsd2ZERXdNRE15TURBd09UY3paVGd4WWpGQWJHbDJaUzVqYjIwaUxDSnpZM0FpT2lKdGVXWnBiR1Z6TG5keWFYUmxJR0ZzYkhOcGRHVnpMbVoxYkd4amIyNTBjbTlzSUdGc2JITnBkR1Z6TG0xaGJtRm5aU0JoYkd4d2NtOW1hV3hsY3k1M2NtbDBaU0lzSW5SMElqb2lNaUlzSW5WelpWQmxjbk5wYzNSbGJuUkRiMjlyYVdVaU9tNTFiR3dzSW1sd1lXUmtjaUk2SWpnekxqUXVPVFl1TVRnNEluMC5lR0U0ZFcxb1RFVndNa2hKYWpOdWFGbEdaRGRuZVhGM1RHbHJlbVJ2WkVoeGQyZENVM1ZWYlZGaFFUMCZBcGlWZXJzaW9uPTIuMA"/></head>
+    <body>
+        <script src="script.js" defer></script>
+
+        <div id="calosc">
+             <div id="pojemnik1">
+            <div>Koszt 50<br>  Monet
+                <div id="lopata">Kup <br>łopate</div>
+                <div>+0.5 Przychód</div>
+            </div>
+            <div>Koszt 130 Monet
+                <div id="koparka">Kup koparke</div>
+                <div>+1.5 Przychód</div>
+            </div>
+            <div>Koszt 200 Monet
+                <div id="buldorzer">Kup buldorzer</div>
+                <div>+2.5 Przychód</div>
+            </div>
+        </div>
+
+        <div id="pojemnik2">
+            <div id="licznik">Monety: 0</div>
+            <div id="pasywny">Przychód za klik:</div>
+            <div id="przychod">1</div>
+        </div>
+
+        <div id="pojemnik3"><button>Klikaj!!!</button></div>
+        
+        <div id="pojemnik4">
+            <div>TWÓJ CEL TO 1.000.000 MONET</div>
+        </div>
+
+        <div id="pojemnik5">WYGRAŁEŚ!!!
+            <button id="next">Graj jeszcze raz</button>
+        </div>
+    </div>
+       
+    </body>
+</html>
