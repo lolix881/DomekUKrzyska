@@ -7,15 +7,47 @@
         <script src="script.js"></script> 
     </head>
     <body>
-        <nav>
-            <div class="logo">"Domeku Krzyśka"</div>
-            <ul>
-                <li><a href="Home">Strona Główna</a></li>
-                <li><a href="Oferta">Oferta</a></li>
-                <li><a href="Atrakcje">Atrakcje w okolicy</a></li>
-                <li><a href="Galeria">Galeria</a></li>
-                <li><a href="Contact">Kontakt</a></li>
-            </ul> 
-        </nav>
+        <div id="top">
+            <div id="logo">
+                <img src="zdjecia/logo.png" alt="Domek u Krzyśka">
+            </div>
+            <div id="top-right">
+                <div id="panorama">
+                    <img src="zdjecia/tatry.jpg" alt="Tatry">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="Home">Strona Główna</a></li>
+                        <li><a href="Oferta">Oferta</a></li>
+                        <li><a href="Atrakcje">Atrakcje w okolicy</a></li>
+                        <li><a href="Galeria">Galeria</a></li>
+                        <li><a href="Contact">Kontakt</a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+    </style>    
+    <h1>Galeria zdjęć</h1>
+
+    <div class="gallery">
+        <img src="sciezka/do/zdjecia1.jpg" alt="Zdjęcie 1">
+        <img src="sciezka/do/zdjecia2.jpg" alt="Zdjęcie 2">
+        <img src="sciezka/do/zdjecia3.jpg" alt="Zdjęcie 3">
+        <!-- Dodaj kolejne zdjęcia tutaj -->
+    </div>
     </body>
 </html>
